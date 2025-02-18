@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+@theme {
+  --font-montserrat: "Montserrat", "serif";
+  --color-primary: #262c36;
+  --color-dark: #010409;
+}
+
+/* ::-webkit-scrollbar {
+  background-color: yellow;
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: gray;
+}
+::-webkit-scrollbar-thumb {
+  background-color: red;
+  border-radius: 50%
+} */
+
+body {
+  @apply font-montserrat bg-white text-gray-800 text-sm;
+}
+
+.button-primary {
+  @apply cursor-pointer transition-all  duration-300  bg-primary hover:bg-gray-700 border border-gray-700 text-white rounded px-4  h-8;
+}
+
+.input {
+  @apply h-9 border border-gray-300 px-3 w-full rounded focus:outline-none focus:border-gray-600 duration-300; 
+}
