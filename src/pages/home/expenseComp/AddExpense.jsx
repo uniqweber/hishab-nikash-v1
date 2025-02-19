@@ -1,9 +1,9 @@
-import { bazarItems } from "../../utils/data/bajarItems";
+import { bazarItems } from "../../../utils/data/bajarItems";
 import { useState } from "react";
-import { ItemsSelectDropdown } from "./ItemsSelectDropdown";
 import { useDispatch } from "react-redux";
-import { addExpense } from "../../features/itemList/itemListSlice";
-import ConfirmationModal from "../../components/UI/ConfirmationModal";
+import { addExpense } from "../../../features/expense/expenseSlice";
+import { ConfirmationModal } from "../../../components/UI";
+import { ItemsSelectDropdown } from ".";
 
 const AddExpense = () => {
   const dispatch = useDispatch();
@@ -49,5 +49,4 @@ const AddExpense = () => {
     </div>
   );
 };
-
 export default AddExpense;

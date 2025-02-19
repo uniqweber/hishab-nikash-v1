@@ -28,9 +28,15 @@ body {
 }
 
 .input {
-  @apply h-9 border border-gray-300 px-3 w-full rounded focus:outline-none focus:border-gray-600 duration-300; 
+  @apply h-9 border border-gray-300 px-3 w-full rounded focus:outline-none focus:border-gray-600 duration-300;
 }
 
 .border-button {
-  @apply h-8 border  cursor-pointer duration-300 hover:text-white rounded w-full
+  @apply h-8 border px-4  cursor-pointer duration-300 hover:text-white rounded w-full;
+}
+.active-route-button {
+  @apply h-8 border px-4 cursor-pointer  bg-primary text-white w-full flex items-center gap-2 rounded;
+}
+.route-button {
+  @apply h-8 border px-4 cursor-pointer  border-transparent rounded w-full flex items-center gap-2;
 }

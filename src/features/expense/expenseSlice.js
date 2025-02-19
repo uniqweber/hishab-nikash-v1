@@ -16,7 +16,7 @@ const loadState = () => {
 
 const initialState = loadState();
 
-const itemListSlice = createSlice({
+const expenseSlice = createSlice({
   name: "itemList",
   initialState,
   reducers: {
@@ -67,8 +67,8 @@ const itemListSlice = createSlice({
     },
   },
 });
-export const { addExpense, editExpense, deleteExpense, deleteAllExpenses } = itemListSlice.actions;
-export default itemListSlice.reducer;
+export const { addExpense, editExpense, deleteExpense, deleteAllExpenses } = expenseSlice.actions;
+export default expenseSlice.reducer;
 
 const saveState = (state) => {
   const serializedState = JSON.stringify(state);

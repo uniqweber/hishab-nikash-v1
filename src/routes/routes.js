@@ -1,6 +1,6 @@
 import Home from "../pages/home/Home";
 import Items from "../pages/items/Items";
-import NotFound from "../pages/NotFound";
+import NotFound from "../pages/notFound/NotFound";
 
 export const routes = [
   { id: 1, path: "/", Element: Home },

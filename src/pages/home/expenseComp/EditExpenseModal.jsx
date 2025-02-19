@@ -1,6 +1,6 @@
 import { FaXmark } from "react-icons/fa6";
 
-const EditExpenseModal = ({ isEditing, setIsEditing, editedExpense, setEditedExpense, onUpdateExpense }) => {
+ const EditExpenseModal = ({ isEditing, setIsEditing, editedExpense, setEditedExpense, onUpdateExpense }) => {
   const handleOnChange = (e) => {
     setEditedExpense((prev) => ({ ...prev, amount: e.target.value }));
   };
@@ -27,4 +27,5 @@ const EditExpenseModal = ({ isEditing, setIsEditing, editedExpense, setEditedExp
   );
 };
 
-export default EditExpenseModal;
+
+export default EditExpenseModal
