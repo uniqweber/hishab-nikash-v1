@@ -1,6 +1,6 @@
 import { bazarItems } from "../../utils/data/bajarItems";
 import { useState } from "react";
-import { ItemsSelectDropdown } from "../../components/UI/ItemsSelectDropdown";
+import { ItemsSelectDropdown } from "./ItemsSelectDropdown";
 import { useDispatch } from "react-redux";
 import { addExpense } from "../../features/itemList/itemListSlice";
 import ConfirmationModal from "../../components/UI/ConfirmationModal";
@@ -18,10 +18,9 @@ const AddExpense = () => {
     dispatch(addExpense({ category: selectCategoryName?.trim(), name: selectedItem?.trim(), amount: amount?.trim() }));
   };
 
-
-
   return (
     <div className=" space-y-2">
+      <h2 className="font-medium">Expenses</h2>
       <ItemsSelectDropdown
         id="dropdown-1"
         mapItems={bazarItems}
@@ -32,12 +31,12 @@ const AddExpense = () => {
         setSelectCategoryName={setSelectCategoryName}
       />
       <input type="number" placeholder="Enter Amount" className="input" value={amount} onChange={(e) => setAmount(e.target.value)} />
-      <button onClick={() => setShowModal(true)} className="button-primary w-full">
+      <button onClick={() => selectedItem && amount && setShowModal(true)} className="button-primary w-full">
         Submit
       </button>
       <ConfirmationModal
-        show={showModal}
-        setShow={setShowModal}
+        isConfirm={showModal}
+        setIsConfirm={setShowModal}
         onConfirm={handleSubmit}
         title="Confirmation"
         subtitle={

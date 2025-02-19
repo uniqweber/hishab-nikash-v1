@@ -1,6 +1,6 @@
 export const bazarItems = [
   {
-    id: 6,
+    id: 1,
     category: "Vegetables",
     items: [
       { id: 605, name: "Ada" },
@@ -57,7 +57,7 @@ export const bazarItems = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     category: "Fruits",
     items: [
       { id: 401, name: "Kola" },
@@ -79,7 +79,7 @@ export const bazarItems = [
     ],
   },
   {
-    id: 5,
+    id: 4,
     category: "Meat & Dairy",
     items: [
       { id: 505, name: "Mach" },
@@ -91,7 +91,7 @@ export const bazarItems = [
     ],
   },
   {
-    id: 6,
+    id: 5,
     category: "Spices",
     items: [
       { id: 601, name: "Moricher Gura" },
@@ -114,7 +114,7 @@ export const bazarItems = [
     ],
   },
   {
-    id: 7,
+    id: 6,
     category: "Oils & Ghee",
     items: [
       { id: 703, name: "Ghee" },
@@ -125,7 +125,7 @@ export const bazarItems = [
     ],
   },
   {
-    id: 8,
+    id: 7,
     category: "Snacks",
     items: [
       { id: 801, name: "Muri" },
@@ -140,7 +140,7 @@ export const bazarItems = [
     ],
   },
   {
-    id: 9,
+    id: 8,
     category: "Beverages",
     items: [
       { id: 903, name: "Coffee" },
@@ -151,13 +151,13 @@ export const bazarItems = [
     ],
   },
   {
-    id: 10,
+    id: 9,
     category: "Household & Hygiene",
     items: [
       { id: 1001, name: "Gosoler Shaban" },
       { id: 1003, name: "Wheel Shaban" },
       { id: 1004, name: "Bhim Shaban" },
-      { id: 1005, name: "Shampoo" },
+      { id: 1011, name: "Shampoo" },
       { id: 1005, name: "Conditioner" },
       { id: 1006, name: "Napkin" },
       { id: 1007, name: "Tissue" },
@@ -167,7 +167,7 @@ export const bazarItems = [
     ],
   },
   {
-    id: 11,
+    id: 10,
     category: "Entertainment & Eating Out",
     items: [
       { id: 1101, name: "Bakery Cake" },
@@ -184,7 +184,7 @@ export const bazarItems = [
     ],
   },
   {
-    id: 12,
+    id: 11,
     category: "Transportation",
     items: [
       { id: 1201, name: "Rickshaw Vara" },
@@ -194,7 +194,7 @@ export const bazarItems = [
     ],
   },
   {
-    id: 13,
+    id: 12,
     category: "Shopping",
     items: [
       { id: 1301, name: "Clothing" },
@@ -206,7 +206,7 @@ export const bazarItems = [
     ],
   },
   {
-    id: 14,
+    id: 13,
     category: "Health & Medical",
     items: [
       { id: 1401, name: "Doctor Fees" },
@@ -216,7 +216,7 @@ export const bazarItems = [
     ],
   },
   {
-    id: 1,
+    id: 14,
     category: "Bills & Utilities",
     items: [
       { id: 101, name: "Basha Vara" },
@@ -250,7 +250,7 @@ export const bazarItems = [
     ],
   },
   {
-    id: 18,
+    id: 17,
     category: "Books & Stationery",
     items: [
       { id: 1701, name: "Books" },
@@ -258,11 +258,11 @@ export const bazarItems = [
       { id: 1704, name: "Notebooks" },
       { id: 1705, name: "Pens" },
       { id: 1706, name: "Software/Tools" },
-      { id: 1706, name: "Domain/Hosting" },
+      { id: 1707, name: "Domain/Hosting" },
     ],
   },
   {
-    id: 20,
+    id: 18,
     category: "Expense For Interview",
     items: [
       { id: 2001, name: "Bus/Train Fare for Classes" },
@@ -271,7 +271,7 @@ export const bazarItems = [
     ],
   },
   {
-    id: 21,
+    id: 19,
     category: "Unexpected Expenses",
     items: [
       { id: 2001, name: "Tools" },
