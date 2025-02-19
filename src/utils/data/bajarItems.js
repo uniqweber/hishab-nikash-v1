@@ -277,6 +277,7 @@ export const bazarItems = [
       { id: 2001, name: "Tools" },
       { id: 2002, name: "Repairing" },
       { id: 2003, name: "Cleaning" },
+      { id: 2004, name: "Salon" },
     ],
   },
 ];
