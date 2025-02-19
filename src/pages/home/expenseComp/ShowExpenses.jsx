@@ -1,8 +1,9 @@
 import { useState } from "react";
-import { EditExpenseModal, ExpenseCategory } from ".";
 import { useDispatch, useSelector } from "react-redux";
 import { ConfirmationModal } from "../../../components/UI";
 import { deleteExpense, editExpense } from "../../../features/expense/expenseSlice";
+import ExpenseCategory from "./ExpenseCategory";
+import EditExpenseModal from "./EditExpenseModal";
 
 const ShowExpenses = () => {
   const dispatch = useDispatch();

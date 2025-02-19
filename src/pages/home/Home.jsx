@@ -1,6 +1,7 @@
 import { useDispatch } from "react-redux";
 import { deleteAllExpenses } from "../../features/expense/expenseSlice";
-import { AddExpense, ShowExpenses } from "./expenseComp";
+import ShowExpenses from "./expenseComp/ShowExpenses";
+import AddExpense from "./expenseComp/AddExpense";
 
 const Home = () => {
   const dispatch = useDispatch();

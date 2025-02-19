@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addExpense } from "../../../features/expense/expenseSlice";
 import { ConfirmationModal } from "../../../components/UI";
-import { ItemsSelectDropdown } from ".";
+import ItemsSelectDropdown from "./ItemsSelectDropdown";
 
 const AddExpense = () => {
   const dispatch = useDispatch();

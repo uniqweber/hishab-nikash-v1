@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useHandleClickOutside } from "../../../hooks/useHandleClickOutside";
-import { DropdownInput, DropdownList } from ".";
+import DropdownInput from "./DropdownInput";
+import DropdownList from "./DropdownList";
 
 const ItemsSelectDropdown = ({ mapItems, setSelectedItem, selectedItem, placeholderTitle, id, setSelectCategoryName }) => {
   const [showItem, setShowItems] = useState(false);
